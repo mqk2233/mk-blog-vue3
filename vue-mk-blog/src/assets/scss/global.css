@@ -1,0 +1,9 @@
+@charset "UTF-8";
+。footer-p {
+  left: 50%;
+  position: relative;
+  display: inline-block;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,16 @@
+package com.mk;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author MK
+ * @date 2022/8/3
+ */
+@SpringBootApplication
+public class AuthServerApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(AuthServerApplication.class, args);
+    }
+}

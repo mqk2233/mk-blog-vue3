@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="blog-common" />
+        <module name="blog-admin" />
+        <module name="blog-file" />
+        <module name="blog-gateway" />
+        <module name="blog-web" />
+        <module name="auth-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-server" options="-parameters" />
+      <module name="blog-admin" options="-parameters" />
+      <module name="blog-auth" options="" />
+      <module name="blog-common" options="-parameters" />
+      <module name="blog-file" options="-parameters" />
+      <module name="blog-gateway" options="-parameters" />
+      <module name="blog-web" options="-parameters" />
+    </option>
+  </component>
+</project>

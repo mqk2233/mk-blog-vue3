@@ -1,0 +1,48 @@
+.el-row-top {
+  top: 25%;
+  z-index: 1;
+}
+
+.title-font {
+  font-weight: 600;
+  font-family: 'Indie Flower', cursive;
+}
+
+.grid-content {
+  min-height: 50vh;
+}
+
+.login-btn {
+  width: 100%;
+}
+
+.three-login-div {
+  width: 100%
+}
+
+.three-login-text {
+  font-size: 1px;
+  color: #747373;
+}
+
+.three-login-span {
+  left: 50%;
+  position: relative;
+  display: inline-block;
+  transform: translateX(-50%);
+
+  img {
+    width: 20px;
+    cursor: pointer;
+  }
+
+  .el-image:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+.el-card {
+  box-shadow: 0 20px 25px -12px rgb(0 0 0 / 9%);
+  border: 0;
+}
+

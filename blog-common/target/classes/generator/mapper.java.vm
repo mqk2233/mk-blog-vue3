@@ -1,0 +1,17 @@
+package ${package.Mapper};
+
+import ${package.Entity}.${table.entityName};
+import ${superMapperClassPackage};
+
+/**
+ * @author ${author}
+ * @describe $!{table.comment}mapper类
+ * @date ${cfg.dateTime}
+ */
+#if(${kotlin})
+interface ${table.mapperName} : ${superMapperClass}<${table.entityName}>
+#else
+public interface ${table.mapperName} extends ${superMapperClass}<${table.entityName}> {
+
+}
+#end
